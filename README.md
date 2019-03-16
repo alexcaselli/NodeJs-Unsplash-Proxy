@@ -17,7 +17,8 @@ This is a NodeJs Proxy created to Interact with the Unsplash API without storing
  * Download a photo (Download_Location)   www.yourproxyaddress.com/photos/photoID/download
  
 ## Proxy Configuration
-You have to set your private API Key to the constant Key
+You have to set your private API Key to the <pre><code>const key = 'YOUR API KEY';
+</code></pre> and 
 The proxy will listen on the PORT: 8080
 
 
