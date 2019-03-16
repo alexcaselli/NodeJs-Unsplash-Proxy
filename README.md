@@ -2,9 +2,9 @@
 
 This is a NodeJs Proxy created to Interact with the Unsplash API without storing your API Key on the Client.
 
-* __App.js__  contain the Proxy code
+* __App.js__  contains the Proxy code
 * __App.yaml__ is used by __Google App Engine__ to run the application
-* __package.json__ store the dependecies
+* __package.json__ storse the dependecies
 
 
 ## Proxy Usage
