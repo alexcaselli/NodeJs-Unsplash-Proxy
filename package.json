@@ -1,0 +1,27 @@
+{
+  "name": "NodeJs-Unsplash-Proxy",
+  "description": "Simple NodeJS Proxy for Unsplash",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Alex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexcaselli//NodeJs-Unsplash-Proxy.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js",
+    "system-test": "repo-tools test app",
+    "test": "npm run system-test",
+    "e2e-test": "repo-tools test deploy"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-http-proxy": "^1.5.1",
+    "http-proxy": "^1.17.0",
+  }
+}
