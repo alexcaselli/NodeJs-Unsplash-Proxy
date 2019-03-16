@@ -21,5 +21,6 @@ You have to __set your private API Key__ to the <pre><code>const key = 'YOUR API
 </code></pre> and 
 The proxy will listen on the PORT: 8080
 
-
+##Full Guide on Medium:
+https://medium.com/@a.caselli95/how-to-build-a-proxy-for-unsplash-api-on-google-app-engine-2bd87069b39?source=friends_link&sk=c5aedcc7f80d4108721f947a67d17f77
 
