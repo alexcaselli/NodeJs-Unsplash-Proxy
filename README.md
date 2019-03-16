@@ -2,22 +2,22 @@
 
 This is a NodeJs Proxy created to Interact with the Unsplash API without storing your API Key on the Client.
 
-* App.js  contain the Proxy code
-* App.yaml is used by Google App Engine to run the application
-* package.json store the dependecies
+* __App.js__  contain the Proxy code
+* __App.yaml__ is used by __Google App Engine__ to run the application
+* __package.json__ store the dependecies
 
 
 ## Proxy Usage
  Proxy provides this request possibilities:
- * Ask for a user's profile   make a GET request to:
+ * Ask for a __user's profile__   make a GET request to:
  www.yourproxyaddress.com/users/username[/?h=YourCustomHeightSize&w=YourCustomWidthSize] 
  ([....] is Optional if you want a custom size for the user's profile image)
- * Ask for a user's photos list   make a GET request to www.yourproxyaddress.com/users/username/photos
- * Ask for a photo   www.yourproxyaddress.com/photos/photoID
- * Download a photo (Download_Location)   www.yourproxyaddress.com/photos/photoID/download
+ * Ask for a __user's photos list__   make a GET request to www.yourproxyaddress.com/users/username/photos
+ * Ask for a __photo__   www.yourproxyaddress.com/photos/photoID
+ * __Download a photo__ (Download_Location)   www.yourproxyaddress.com/photos/photoID/download
  
 ## Proxy Configuration
-You have to set your private API Key to the <pre><code>const key = 'YOUR API KEY';
+You have to __set your private API Key__ to the <pre><code>const key = 'YOUR API KEY';
 </code></pre> and 
 The proxy will listen on the PORT: 8080
 
